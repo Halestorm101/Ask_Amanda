@@ -1,0 +1,46 @@
+/*********************************************
+	"From the Blog" Extension
+*********************************************/
+
+body .builder-module-content .it-from-blog-extension:nth-child(n) {
+	width: 47.5%;
+	margin-right: 5%;
+	clear: none;
+}
+body .builder-module-content .it-from-blog-extension:nth-child(2n) {
+	margin-right: 0;
+}
+body .builder-module-content .it-from-blog-extension:nth-child(2n+1) {
+	clear: both;
+}
+body .builder-module-content .it-from-blog-extension:nth-last-child(-n+2) {
+	margin-bottom: 0;
+}
+
+.builder-module-html.builder-module-before-footer .left-wrapper {
+	float: none;
+	width: 70%;
+	margin: 0 auto 3em auto;
+	text-align: center;
+}
+.builder-module-html.builder-module-before-footer .right-wrapper {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+.builder-module-html.builder-module-before-footer h2 {
+	margin-bottom: 1em;
+}
+.builder-module-html.builder-module-before-footer input[type="text"] {
+	max-width: 500px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.builder-module-html.builder-module-before-footer input[type="submit"] {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	clear: both;
+	display: block;
+	padding: .75em;
+}
